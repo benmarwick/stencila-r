@@ -59,3 +59,5 @@ y <- x + runif(s)
 z <- y + rnorm(s)
 hist(z, breaks=40, col=hsv(0.6, 0.9, 1), xlab="Value", main="")
 ```
+
+If we change the Rmd, do we need to manually remake the DAR?
